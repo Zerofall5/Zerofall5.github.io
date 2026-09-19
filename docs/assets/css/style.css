@@ -1,0 +1,52 @@
+/* Body of the webpage settings */
+body{
+
+    max-width: 800px;	
+
+    margin: 0 auto;
+
+    padding: 40px 20px;
+
+    line-height: 1.6;
+
+/* This is the color of the text */
+    color: #e6edf3;
+
+/* This is the color of the background */
+    background: #0d1b2a;
+}
+
+
+/* Navigation bar settings */
+nav {
+/* Space between nav bar and text */
+    margin-bottom: 40px;
+
+}
+
+nav a {
+    color: #7db7e8;
+
+    margin-right: 20px;
+
+    text-decoration: none;
+}
+
+
+/*Adds the brackets before and after the links */
+nav a::before {
+	content: "[";
+}
+
+nav a::after {
+	content: "]";
+}
+
+/* This is the cusomization for my home photo */
+
+.profile-photo {
+	width: 300px;
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
